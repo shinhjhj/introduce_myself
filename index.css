@@ -1,0 +1,16 @@
+.individ{
+   
+    border-right:solid #000;
+    height: 100%;
+    /* left: 10%; */
+    padding-right: 3%;
+    position: absolute;
+    background-color:burlywood;
+    width: 10%;
+}
+.maincon{
+    clear:both;
+    position: relative;
+    left:15%;
+    width: 80%;
+}
