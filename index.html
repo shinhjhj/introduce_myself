@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>DENF's homepage</title>
+
         <meta charset="utf-8">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="/fav/android-icon-192x192.png">
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -24,74 +25,69 @@
         <meta name="theme-color" content="#ffffff">
     </head>
     <body>
-        <h1><img src="DENF_logo.jpg" width="5%">    DENF's Home</h1>
-        
-        <hr>
-        <div class="individ">
+        <h1><img src="DENF_logo.jpg" width="5%">DENF's Home</h1>
+        <div id="grid">
             <ol>
                 <li><a href="index.html">홈</a></li>
                 <li><a href="past.html">과거</a></li>
                 <li><a href="present.html">현재</a></li>
                 <li><a href="future.html">미래</a></li>
             </ol>
-        </div>
-        <div class="maincon">
-            
-            <p>환영합니다. 이곳은 DENF의 메인 홈페이지입니다.</p>
-            <p>좌측의 목차를 살펴보시고 원하시는 페이지를 탐색하시기 바랍니다.</p>
-            <p><a href="https://www.youtube.com/channel/UCIirNw3I3DyjOpI9BjkZ6Xw" target="_blank">유튜브</a></p>
-            <p>저는 하드한 게임을 좋아하는 헤비 게이머입니다. 
-                어린 시절부터 PS, XBOX, Nintendo 등 다양한 콘솔을 접했으며, 
-                다크 소울 시리즈, GTFO, 메탈 기어 솔리드 시리즈 등 도전의식을 느낄 수 있는 
-                게임들을 주로 플레이해왔습니다.
-                현재는 PC(Steam, XBOX, etc), XSX, PS4, NSW 플랫폼에서 게임 중입니다.
-            </p>
-            <p>플레이한 콘솔들</p>
-            <ul>
-                <li>PS2</li>
-                <li>PS3</li>
-                <li>PS4</li>
-                <li>PS5</li>
-                <li>XBOX 360</li>
-                <li>XBOX Series X</li>
-                <li>Nintendo DS</li>
-                <li>Nintendo Wii</li>
-                <li>Nintendo Switch</li>
-            </ul>
-            <p>좋아하는 게임들, 제작사(자)들</p>
-            <ul>
-                <li>메탈 기어 시리즈, 데스 스트랜딩 시리즈-코지마 히데오</li>
-                <p>전술 잠입 액션인 메탈 기어 시리즈는 스텔스를 좋아하는 제 취향에 딱 맞았고, 
-                    코지마 특유의 유머코드가 저와 맞아 플레이한 게임들 모두 재미있게 즐겼습니다. 
-                    또한 데스 스트랜딩도 배달 시뮬레이터에 메탈 기어 시리즈의 특징을 섞어 
-                    이제껏 느껴볼 수 없었던 신박함과 재미있게 하던 익숙함을 모두 잡았다고 생각합니다.</p>
-                <li>기어스 시리즈</li>
-                <p>123 삼부작이 호쾌해서 어릴 때 아주 재미있게 즐겼고, 
-                    4와 5는 높은 수준의 그래픽으로 재밌게 즐긴 기억이 있습니다.</p>
-                <li>소울 시리즈 외-프롬 소프트웨어</li>
-                <p>데몬즈 소울로 입문하여 소울 시리즈 123, 블러드본, 세키로, 엘든 링, 아머드 코어 6까지 전부 재미있게 즐겼습니다.</p>
-            </ul>
-            <p>
-                <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://web-1-5ioyinkhpp.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            </p>
-        </div>
+            <div id="article">
+                <p>환영합니다. 이곳은 DENF의 메인 홈페이지입니다.</p>
+                <p>좌측의 목차를 살펴보시고 원하시는 페이지를 탐색하시기 바랍니다.</p>
+                <p><a href="https://www.youtube.com/channel/UCIirNw3I3DyjOpI9BjkZ6Xw" target="_blank">유튜브</a></p>
+                <p>저는 하드한 게임을 좋아하는 헤비 게이머입니다. 
+                    어린 시절부터 PS, XBOX, Nintendo 등 다양한 콘솔을 접했으며, 
+                    다크 소울 시리즈, GTFO, 메탈 기어 솔리드 시리즈 등 도전의식을 느낄 수 있는 
+                    게임들을 주로 플레이해왔습니다.
+                    현재는 PC(Steam, XBOX, etc), XSX, PS4, NSW 플랫폼에서 게임 중입니다.
+                </p>
+                <p>플레이한 콘솔들</p>
+                <ul>
+                    <li>PS2</li>
+                    <li>PS3</li>
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>XBOX 360</li>
+                    <li>XBOX Series X</li>
+                    <li>Nintendo DS</li>
+                    <li>Nintendo Wii</li>
+                    <li>Nintendo Switch</li>
+                </ul>
+                <p>좋아하는 게임들, 제작사(자)들</p>
+                <ul>
+                    <li>메탈 기어 시리즈, 데스 스트랜딩 시리즈-코지마 히데오</li>
+                    <p>전술 잠입 액션인 메탈 기어 시리즈는 스텔스를 좋아하는 제 취향에 딱 맞았고, 
+                        코지마 특유의 유머코드가 저와 맞아 플레이한 게임들 모두 재미있게 즐겼습니다. 
+                        또한 데스 스트랜딩도 배달 시뮬레이터에 메탈 기어 시리즈의 특징을 섞어 
+                        이제껏 느껴볼 수 없었던 신박함과 재미있게 하던 익숙함을 모두 잡았다고 생각합니다.</p>
+                    <li>기어스 시리즈</li>
+                    <p>123 삼부작이 호쾌해서 어릴 때 아주 재미있게 즐겼고, 
+                        4와 5는 높은 수준의 그래픽으로 재밌게 즐긴 기억이 있습니다.</p>
+                    <li>소울 시리즈 외-프롬 소프트웨어</li>
+                    <p>데몬즈 소울로 입문하여 소울 시리즈 123, 블러드본, 세키로, 엘든 링, 아머드 코어 6까지 전부 재미있게 즐겼습니다.</p>
+                </ul>
+                <p><div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://web-1-5ioyinkhpp.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+                
+            </div>
     </body>
 </html>
